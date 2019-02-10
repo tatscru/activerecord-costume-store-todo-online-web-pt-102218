@@ -7,5 +7,6 @@ class CreateCostume < ActiveRecord::Migration
       t.float :price
       t.integer :size 
       t.text :imageurl 
+      t.
   end 
 end 
