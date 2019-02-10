@@ -8,6 +8,6 @@ class CreateCostume < ActiveRecord::Migration
       t.integer :size 
       t.text :imageurl 
       t.timestamps 
+    end 
   end 
-end 
 end 
