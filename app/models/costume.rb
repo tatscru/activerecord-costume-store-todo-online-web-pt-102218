@@ -2,7 +2,7 @@
 # It should inherit from ActiveRecord::Base
 class Costume < ActiveRecord::Base
   def change 
-    create_table :costumes 
+    create_table :costumes do |t|
       c.string :name 
       t.integer :price
       c.integer :size 
