@@ -3,9 +3,9 @@
 class Costume < ActiveRecord::Base
   def change 
     create_table :costumes do |t|
-      c.string :name 
+      t.string :name 
       t.integer :price
-      c.integer :size 
-      c.string :imageurl 
+      t.integer :size 
+      t.string :imageurl 
   end 
 end 
