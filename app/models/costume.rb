@@ -2,6 +2,6 @@
 # It should inherit from ActiveRecord::Base
 class Costume < ActiveRecord::Base
   def change 
-    create_table 
+    create_table :costumes 
   end 
 end 
