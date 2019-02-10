@@ -13,8 +13,8 @@
 ActiveRecord::Schema.define(version: 3) do
 
   create_table "costume_stores", force: :cascade do |t|
-    t.text "name"
-    t.text "location"
+    t.string "name"
+    t.string "location"
     t.integer "costume_inventory"
     t.integer "num_of_employees"
     t.boolean "still_in_business"
@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.integer "price"
     t.string "size"
-    t.text "image_url"
+    t.string "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -39,8 +39,6 @@ ActiveRecord::Schema.define(version: 3) do
     t.date "opening_date"
     t.date "closing_date"
     t.string "long_description"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
   end
 
 end
