@@ -41,6 +41,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.date "opening_date"
     t.date "closing_date"
     t.string "long_description"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
